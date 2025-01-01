@@ -2,6 +2,9 @@ body {
   background-color: #0f0f0f;
   margin: 0;
 }
+#nav {
+  display: flex;
+}
 #menu_icon {
   /* margin-right: 20px; */
   width: 18px;
@@ -49,7 +52,7 @@ body {
   vertical-align: middle;
   border: solid grey 1px;
   border-radius: 50px;
-  background-color: #0f0f0f;
+  background-color: #121212;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
   color:white;
@@ -80,7 +83,7 @@ cursor: pointer;
   height: 25px;
   position: absolute;
   top:23px;
-  margin-left: 390px;
+  margin-left: 380px;
 }
 #notfication{
   padding: 20px;
@@ -93,12 +96,10 @@ cursor: pointer;
   height: 25px;
   position: absolute;
   top:23px;
-  margin-left: 415px;
+  margin-left: 405px;
 }
 #user{
   padding: 20px;
   display: inline-block;
 }
-#nav {
-  display: flex;
-}
+
