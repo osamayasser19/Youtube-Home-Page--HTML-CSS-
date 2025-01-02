@@ -1,0 +1,19 @@
+#videos {
+  width: 1230px;
+  height: auto;
+  margin-left: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.vid {
+  width: 380px;
+  border-radius: 10px;
+  margin-right: 5px;
+  box-shadow: 5px black;
+}
+
+.vid:hover {
+  transition: 0.2s;
+  border-radius: 0px;
+}

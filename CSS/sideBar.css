@@ -16,7 +16,7 @@
 .sideElements {
   width: 200px;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   font-size: 18px;
   font-weight: lighter;
   display: inline-block;
@@ -50,7 +50,7 @@
 #you {
   width: 200px;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   font-size: 18px;
   font-weight: lighter;
   display: flex; /* use flexbox for horizontal alignment */

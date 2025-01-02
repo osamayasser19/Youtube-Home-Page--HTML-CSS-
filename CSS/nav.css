@@ -1,6 +1,7 @@
 body {
   background-color: #0f0f0f;
   margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
 }
 #nav {
   display: flex;
@@ -38,13 +39,13 @@ body {
 
 #yt_title {
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 25px;
   font-weight: lighter;
   display: inline-block; /* use flexbox for horizontal alignment */
   align-items: center; /*vertically align items */
   margin-left: 5px;
   padding: 15px;
+  letter-spacing: -3px;
  
 }
 
