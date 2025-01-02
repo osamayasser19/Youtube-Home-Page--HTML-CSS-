@@ -1,0 +1,33 @@
+#filters {
+  margin-top: -710px;
+  margin-left: 260px;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  width: auto;
+  scrollbar-width: none;
+  direction: ltl;
+
+  color: white;
+  align-items: center;
+}
+
+li {
+  border: grey 1px;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 2px 8px 2px 8px;
+  height: 30px;
+  margin-left: 12px;
+  list-style: none;
+  align-content: center;
+  background-color: #272727;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+li:hover {
+  background-color: #3f3f3f;
+}

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="nav.css" />
-    <link rel="stylesheet" href="sideBar.css" />
+    <link rel="stylesheet" href="CSS/nav.css" />
+    <link rel="stylesheet" href="CSS/sideBar.css" />
+    <link rel="stylesheet" href="CSS/filters.css" />
     <link rel="icon" href="icons/youtube.png" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +13,7 @@
     <!-- Nav Elements -->
     <div id="nav">
       <!-- menu icon -->
-      <div id="menu">
+      <div id="menu" title="menu">
         <img id="menu_icon" src="icons\menu.png" />
       </div>
       <!--------------------------------->
@@ -33,7 +34,7 @@
       </div>
       <!--------------------------------->
       <!-- Notification icon -->
-      <div id="notification">
+      <div id="notification" title="notification">
         <img id="notification_icon" src="icons\notification.png" />
       </div>
       <!--------------------------------->
@@ -49,20 +50,20 @@
     <div id="side_bar">
       <!-- Home element -->
       <a href="index.html">
-        <div class="sideElements">
+        <div class="sideElements" title="Home">
           <img src="icons/home.png" alt="Home Icon" class="sideBarIcons" />
           <span>Home</span>
         </div>
       </a>
       <!--------------------------------->
       <!-- Shorts element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Shorts">
         <img src="icons/shorts.png" alt="Shorts Icon" class="sideBarIcons" />
         <span>Shorts</span>
       </div>
       <!--------------------------------->
       <!-- Subscribtions element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Subscribtions">
         <img
           src="icons/subscribtions.png"
           alt="Sub Icon"
@@ -77,19 +78,19 @@
       <!--------------------------------->
       <br />
       <!--You element -->
-      <div id="you">
+      <div id="you" title="You">
         <span>You</span>
         <img src="icons/You.png" alt="arrow Icon" id="you_icon" />
       </div>
       <!--------------------------------->
       <!--History element -->
-      <div class="sideElements">
+      <div class="sideElements" title="History">
         <img src="icons/history.png" alt="History Icon" class="sideBarIcons" />
         <span>History</span>
       </div>
       <!--------------------------------->
       <!--Playlist element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Playlists">
         <img
           src="icons/playlist.png"
           alt="playlist Icon"
@@ -99,7 +100,7 @@
       </div>
       <!--------------------------------->
       <!--Your Videos element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Your videos">
         <img
           src="icons/vidoes.png"
           alt="Your Videos Icon"
@@ -109,29 +110,29 @@
       </div>
       <!--------------------------------->
       <!--Courses element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Your courses">
         <img src="icons/courses.png" alt="courses Icon" class="sideBarIcons" />
         <span>Your courses</span>
       </div>
       <!--------------------------------->
       <!--Podcasts element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Your podcasts">
         <img
           src="icons/podcasts.png"
           alt="podcasts Icon"
           class="sideBarIcons"
         />
-        <span>Your podcasts </span>
+        <span>Your podcasts</span>
       </div>
       <!--------------------------------->
       <!--Watch Later element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Watch later">
         <img src="icons/later.png" alt="later Icon" class="sideBarIcons" />
         <span>Watch later</span>
       </div>
       <!--------------------------------->
       <!--Liked Videos element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Liked videos">
         <img src="icons/liked.png" alt="liked Icon" class="sideBarIcons" />
         <span>Liked videos</span>
       </div>
@@ -143,12 +144,12 @@
       <br />
 
       <!--Explore element -->
-      <div class="sideElements" id="explore">
+      <div class="sideElements" id="explore" title="Explore">
         <span>Explore</span>
       </div>
       <!--------------------------------->
       <!--Trending element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Trending">
         <img
           src="icons/trending.png"
           alt="trending Icon"
@@ -158,25 +159,25 @@
       </div>
       <!--------------------------------->
       <!--Music element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Music">
         <img src="icons/music.png" alt="music Icon" class="sideBarIcons" />
         <span>Music</span>
       </div>
       <!--------------------------------->
       <!--Live element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Live">
         <img src="icons/live.png" alt="live Icon" class="sideBarIcons" />
         <span>Live</span>
       </div>
       <!--------------------------------->
       <!--Gaming element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Gaming">
         <img src="icons/gaming.png" alt="gaming Icon" class="sideBarIcons" />
         <span>Gaming</span>
       </div>
       <!--------------------------------->
       <!--Sports element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Sports">
         <img src="icons/sports.png" alt="sports Icon" class="sideBarIcons" />
         <span>Sports</span>
       </div>
@@ -189,18 +190,18 @@
       <br />
 
       <!--More element -->
-      <div class="sideElements" id="more">
+      <div class="sideElements" id="more" >
         <span>More from YouTube</span>
       </div>
       <!--------------------------------->
       <!--Premium element -->
-      <div class="sideElements">
+      <div class="sideElements" title="YouTube Premium">
         <img src="icons/youtube.png" alt="premium Icon" class="sideBarIcons" />
         <span>YouTube Premium</span>
       </div>
       <!--------------------------------->
       <!--Studio element -->
-      <div class="sideElements">
+      <div class="sideElements" title="YouTube Studio">
         <img
           src="icons/youtube studio.png"
           alt="studio Icon"
@@ -211,7 +212,7 @@
       </div>
       <!--------------------------------->
       <!--Music element -->
-      <div class="sideElements">
+      <div class="sideElements" title="YouTube Music">
         <img
           src="icons/youtube music.png"
           alt="music Icon"
@@ -228,13 +229,13 @@
       <br />
 
       <!--Setting element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Settings">
         <img src="icons/setting.png" alt="setting Icon" class="sideBarIcons" />
         <span>Settings</span>
       </div>
       <!--------------------------------->
       <!--Report element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Report history">
         <img
           src="icons/report history.png"
           alt="report Icon"
@@ -244,7 +245,7 @@
       </div>
       <!--------------------------------->
       <!--Help element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Help">
         <img
           src="icons/help.png"
           alt="help Icon"
@@ -255,7 +256,7 @@
       </div>
       <!--------------------------------->
       <!--feedback element -->
-      <div class="sideElements">
+      <div class="sideElements" title="Send feedback">
         <img
           src="icons/feedback.png"
           alt="feedback Icon"
@@ -280,5 +281,35 @@
         <p>Terms Privacy Policy & Safety How YouTube works Test new features</p>
       </div>
     </div>
+    <!---------------End of Side Bar------------------>
+    <div id="filters">
+      
+      <li>All</li>
+      <li>Music</li>
+      <li>Podcasts</li>
+      <li>Gaming</li>
+      <li>Mixes</li>
+      <li>Thoughts</li>
+      <li>Technology</li>
+      <li>Travel</li>
+      <li>Food</li>
+      <li>Fitness</li>
+      <li>DIY</li>
+      <li>Comedy</li>
+      <li>Lifestyle</li>
+      <li>Education</li>
+      <li>Entrepreneurship</li>
+      <li>Art</li>
+      <li>History</li>
+      <li>Pets</li>
+      <li>Motivation</li>
+      <li>Vlogs</li>
+      <li>Documentaries</li>
+      <li>News</li>
+
+   
+   
+    </div>
+  
   </body>
 </html>
