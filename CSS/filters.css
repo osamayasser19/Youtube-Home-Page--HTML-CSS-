@@ -10,7 +10,6 @@
   width: auto;
   scrollbar-width: none;
   direction: ltl;
-
   color: white;
   align-items: center;
 }
@@ -25,7 +24,6 @@ li {
   list-style: none;
   align-content: center;
   background-color: #272727;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 li:hover {

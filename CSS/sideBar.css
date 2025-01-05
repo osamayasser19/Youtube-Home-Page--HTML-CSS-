@@ -6,17 +6,17 @@
   overflow-x: hidden;
   margin-right: 1265px;
   height: 100vh;
-  width: 250px;
+  width: 240px;
   scrollbar-width: thin;
   top: 20px;
   direction: ltl;
+  border: white solid;
 
 }
 
 .sideElements {
   width: 200px;
   color: white;
-  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   font-size: 18px;
   font-weight: lighter;
   display: inline-block;
@@ -24,7 +24,7 @@
   margin-left: 5px;
   padding: 10px;
   border: transparent;
-  border-radius: 20px;
+  border-radius: 12px;
   font-size: 15px;
 }
 
@@ -50,7 +50,6 @@
 #you {
   width: 200px;
   color: white;
-  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   font-size: 18px;
   font-weight: lighter;
   display: flex; /* use flexbox for horizontal alignment */

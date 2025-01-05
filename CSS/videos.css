@@ -1,4 +1,4 @@
-#videos {
+#vid_div {
   width: 1230px;
   height: auto;
   margin-left: 270px;
@@ -6,14 +6,72 @@
   flex-wrap: wrap;
   gap: 30px;
 }
+.videos {
+  border-radius: 5px;
+}
+.videos:active {
+  background-color: #272727;
+}
 .vid {
   width: 380px;
   border-radius: 10px;
   margin-right: 5px;
-  box-shadow: 5px black;
 }
-
 .vid:hover {
   transition: 0.2s;
   border-radius: 0px;
+}
+
+.belowVid {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 60px;
+}
+.chnl {
+  align-content: center;
+}
+#chnl_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.title {
+  color: white;
+  height: 40px;
+  position: absolute;
+  left: 50px;
+  align-content: center;
+}
+h5,
+h4 {
+  font-size: 15px;
+  position: relative;
+  bottom: 25px;
+}
+
+.vidMenu {
+  align-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+.vidMenu:active {
+  background-color: #272727;
+}
+.dots {
+  position: relative;
+  left: 5px;
+  top: 2px;
+  width: 20px;
+}
+.rec {
+  font-size: 15px;
+  position: relative;
+  width: fit-content;
+  left: 50px;
+  color: grey;
 }

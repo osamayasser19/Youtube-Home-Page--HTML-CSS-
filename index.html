@@ -5,12 +5,17 @@
     <link rel="stylesheet" href="CSS/sideBar.css" />
     <link rel="stylesheet" href="CSS/filters.css" />
     <link rel="stylesheet" href="CSS/videos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="icons/youtube.png" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube</title>
   </head>
   <body>
+
     <!-- Nav Elements -->
     <div id="nav">
       <!-- menu icon -->
@@ -21,8 +26,7 @@
       <!-- YouTube Title (icon/text) -->
       <a href="index.html">
         <div id="yt_title" title="YouTube Home">
-          <img src="icons/youtube.png" alt="YouTube Icon" id="yt_icon" />
-          <span>YouTube</span>
+          <img src="icons/youtube_logo.png" alt="YouTube Icon" id="yt_icon" />
         </div>
       </a>
       <!--------------------------------->
@@ -46,12 +50,16 @@
       <!--------------------------------->
     </div>
     <!---------------End of Nav------------------>
-
+    
     <!-- Side Bar Elements -->
     <div id="side_bar">
       <!-- Home element -->
       <a href="index.html">
-        <div class="sideElements" title="Home">
+        <div
+          class="sideElements"
+          style="background-color: #272727"
+          title="Home"
+        >
           <img src="icons/home.png" alt="Home Icon" class="sideBarIcons" />
           <span>Home</span>
         </div>
@@ -191,7 +199,7 @@
       <br />
 
       <!--More element -->
-      <div class="sideElements" id="more" >
+      <div class="sideElements" id="more">
         <span>More from YouTube</span>
       </div>
       <!--------------------------------->
@@ -283,9 +291,10 @@
       </div>
     </div>
     <!---------------End of Side Bar------------------>
+
+    <!-- Filters Elements -->
     <div id="filters">
-      
-      <li>All</li>
+      <li style="background-color: white; color: black">All</li>
       <li>Music</li>
       <li>Podcasts</li>
       <li>Gaming</li>
@@ -307,24 +316,187 @@
       <li>Vlogs</li>
       <li>Documentaries</li>
       <li>News</li>
-
-   
-   
     </div>
     <!---------------End of Filters------------------>
 
-    <div id="videos">
-      <div >
-        <img  class="vid" src="icons\vid1.webp"/>
+    <!-- Videos Elements -->
+    <div id="vid_div">
+      <!-- video 1 -->
+      <div class="videos">
+        <a href="https://youtu.be/zOjov-2OZ0E?si=yyn4UiUPYT_ljwpy">
+          <img class="vid" src="icons\vid1.webp"
+        /></a>
+        <div class="belowVid">
+          <!------->
+          <div class="chnl">
+            <img id="chnl_icon" src="icons/vid1_Icon.jpg" />
+          </div>
+          <!------->
+          <div class="title">
+            <h5>
+              Introduction to Programming and Computer Science - Full Course
+            </h5>
+          </div>
+          <!------->
+
+          <div class="vidMenu">
+            <img class="dots" src="icons/dots.png" />
+          </div>
+          <!------->
+
+          <!------->
+        </div>
+        <div class="rec" style="bottom: 20px">
+          <p style="margin-bottom: -14px">freeCodeCamp.org</p>
+          <p>8.9M views • 4 years ago</p>
+        </div>
       </div>
-      <div >
-        <img  class="vid" src="icons\vid2.webp"/>
+      <!------->
+      <!-- video 2 -->
+      <div class="videos">
+        <a href="https://youtu.be/pXHnLbyDKNQ?si=xbNzgRSFdb7RU5zL">
+          <img class="vid" src="icons\vid2.webp"
+        /></a>
+        <div class="belowVid">
+          <!------->
+          <div class="chnl">
+            <img id="chnl_icon" src="icons/vid2_icon.jpg" />
+          </div>
+          <!------->
+          <div class="title">
+            <h5>How To Study Programming The Lazy Way</h5>
+          </div>
+          <!------->
+
+          <div class="vidMenu">
+            <img class="dots" src="icons/dots.png" />
+          </div>
+          <!------->
+
+          <!------->
+        </div>
+        <div class="rec" style="bottom: 40px">
+          <p style="margin-bottom: -14px">The Coding Sloth</p>
+          <p>742K views • 3 month ago</p>
+        </div>
       </div>
-      <div >
-        <img  class="vid" src="icons\vid3.webp"/>
+      <!------->
+      <!-- video 3 -->
+      <div class="videos">
+        <a href="https://youtu.be/KuLUd1UIvVA?si=vng0gW1ifh8_Qrjo">
+          <img class="vid" src="icons\vid3.webp"
+        /></a>
+        <div class="belowVid">
+          <!------->
+          <div class="chnl">
+            <img id="chnl_icon" src="icons/icon3.jpg" />
+          </div>
+          <!------->
+          <div class="title">
+            <h5>Programming is Cooked</h5>
+          </div>
+          <!------->
+
+          <div class="vidMenu">
+            <img class="dots" src="icons/dots.png" />
+          </div>
+          <!------->
+
+          <!------->
+        </div>
+        <div class="rec" style="bottom: 40px">
+          <p style="margin-bottom: -14px">theprimeagen</p>
+          <p>365K views • 1 month ago</p>
+        </div>
       </div>
-     
+      <!------->
+      <!-- video 4 -->
+      <div class="videos">
+        <a href="https://youtu.be/ZIw7QGVwaNI?si=E0JdOaE92an694td">
+          <img class="vid" src="icons\vid4.webp" />
+        </a>
+        <div class="belowVid">
+          <!------->
+          <div class="chnl">
+            <img id="chnl_icon" src="icons/vid4_icon.jpg" />
+          </div>
+          <!------->
+          <div class="title">
+            <h5>Learn JavaScript With These 4 Projects!</h5>
+          </div>
+          <!------->
+
+          <div class="vidMenu">
+            <img class="dots" src="icons/dots.png" />
+          </div>
+          <!------->
+
+          <!------->
+        </div>
+        <div class="rec" style="bottom: 40px">
+          <p style="margin-bottom: -14px">Tech With Tim</p>
+          <p>66K views • 1 year ago</p>
+        </div>
+      </div>
+      <!------->
+      <!-- video 5 -->
+
+      <div class="videos">
+        <a href="https://youtu.be/T8ZKo8Wa7hw?si=mAFe_QXF4KD8fpWg">
+          <img class="vid" src="icons\vid5.webp"
+        /></a>
+        <div class="belowVid">
+          <!------->
+          <div class="chnl">
+            <img id="chnl_icon" src="icons/icon3.jpg" />
+          </div>
+          <!------->
+          <div class="title">
+            <h5>How To Find Time To Learn After Work | Prime Reacts</h5>
+          </div>
+          <!------->
+
+          <div class="vidMenu">
+            <img class="dots" src="icons/dots.png" />
+          </div>
+          <!------->
+        </div>
+        <div class="rec" style="bottom: 25px">
+          <p style="margin-bottom: -14px">theprimeagen</p>
+          <p>535K views • 1 year ago</p>
+        </div>
+      </div>
+      <!------->
+      <!-- video 6 -->
+
+      <div class="videos">
+        <a href="https://youtu.be/m55PTVUrlnA?si=dnwMS8xnB1n6aEoC">
+          <img class="vid" src="icons\vid6.webp"
+        /></a>
+        <div class="belowVid">
+          <!------->
+          <div class="chnl">
+            <img id="chnl_icon" src="icons/vid6_icon.jpg" />
+          </div>
+          <!------->
+          <div class="title">
+            <h5>All The JavaScript You Need To Know For<br />React</h5>
+          </div>
+          <!------->
+
+          <div class="vidMenu">
+            <img class="dots" src="icons/dots.png" />
+          </div>
+          <!------->
+        </div>
+        <div class="rec" style="bottom: 25px">
+          <p style="margin-bottom: -14px">PedroTech</p>
+          <p>676K views • 2 years ago</p>
+        </div>
+      </div>
+      <!------->
     </div>
-  
+    <!---------------End of Videos------------------>
+
   </body>
 </html>
